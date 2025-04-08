@@ -1,7 +1,7 @@
 1. composer create-project laravel/laravel:^11.0.0 nama_projek
 2. buka .env ubah mysql dan nama db
 3. php artisan migrate
-4. install ui, composer require laravel/ui -> php artisan ui bootstrap
+4. install ui, composer require laravel/ui -> php artisan ui bootstrap --auth
 5. npm install
 6. datatables -> npm install jquery datatables.net-bs5
 7. kalau udah bikin seeder, php artisan db:seed --class=DatabaseSeeder
